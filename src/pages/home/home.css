@@ -1,0 +1,68 @@
+.conteneur-principal {
+  height: 75vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.nom {
+  font-family: var(--font-family);
+  font-size: 8rem;
+}
+
+.receipent {
+  text-align: center;
+  box-sizing: content-box;
+  height: 200px !important;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.switch-list {
+  overflow: hidden;
+  height: 70px;
+}
+
+.span {
+  font-family: var(--font-family);
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-top: 0.5rem;
+  font-size: 2rem;
+  color: #9A9B9D;
+  animation: spin_switch-list 10s infinite;
+  animation-delay: 4s;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+@keyframes spin_switch-list {
+  10% {
+    transform: translateY(-112%);
+  }
+  25% {
+    transform: translateY(-100%);
+  }
+  35% {
+    transform: translateY(-212%);
+  }
+  50% {
+    transform: translateY(-200%);
+  }
+  60% {
+    transform: translateY(-312%);
+  }
+  75% {
+    transform: translateY(-300%);
+  }
+  85% {
+    transform: translateY(-412%);
+  }
+  100% {
+    transform: translateY(-400%);
+  }
+}
+

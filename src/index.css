@@ -1,0 +1,21 @@
+@import url('https://fonts.cdnfonts.com/css/vcr-osd-mono');
+
+:root {
+  --font-family: 'VCR OSD Mono', sans-serif;
+
+  background: #F7F8F2;
+  color: #1a1a1a;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
