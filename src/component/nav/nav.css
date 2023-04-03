@@ -45,3 +45,9 @@
   line-height: 1.5;
   white-space: nowrap;
 }
+
+@media screen and (max-width: 640px) {
+  .nav--link {
+    padding-left: 2rem;
+  }
+}
