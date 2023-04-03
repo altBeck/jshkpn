@@ -21,7 +21,7 @@
   padding-top: .5rem;
 }
 
-.lnk0 {
+.nav--link a {
   color: #9A9B9D;
   text-decoration: none;
 }
@@ -46,8 +46,18 @@
   white-space: nowrap;
 }
 
+@media screen and (max-width: 380px) {
+  .tooltip:hover::before {
+    left: 39% !important;
+  }
+}
+
 @media screen and (max-width: 640px) {
   .nav--link {
     padding-left: 2rem;
+  }
+
+  .tooltip:hover::before {
+    left: 35%;
   }
 }

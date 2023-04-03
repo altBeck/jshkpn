@@ -11,11 +11,11 @@ function App() {
       <Nav />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="/about" component={About} />
-        <Route path="/abcd" component={ABCD} />
-        <Route path="/blog" component={Blog} />
-        <Route path="/ifoncier" component={IFoncier} />
-        <Route path="/liqwid" component={Liqwid} />
+        <Route path="About" component={About} />
+        <Route path="ABCD" component={ABCD} />
+        <Route path="Blog" component={Blog} />
+        <Route path="IFoncier" component={IFoncier} />
+        <Route path="Liqwid" component={Liqwid} />
       </Routes>
     </Router>
   );

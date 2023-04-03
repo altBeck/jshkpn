@@ -39,6 +39,11 @@
   cursor: pointer;
 }
 
+.span a {
+  color: #9A9B9D;
+  text-decoration: none;
+}
+
 @keyframes spin_switch-list {
   10% {
     transform: translateY(-112%);
