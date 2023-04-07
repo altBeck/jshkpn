@@ -57,7 +57,8 @@
 
 @media screen and (max-width: 640px) {
   .nav--link {
-    padding-left: 2rem;
+    padding-left: 1rem;
+    max-width: 100% !important;
   }
 
   .tooltip:hover::before {
@@ -65,6 +66,12 @@
   }
 
   .nav {
-    height: 20%;
+    height: 20% !important;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .nav--link {
+    max-width: 700px;
   }
 }

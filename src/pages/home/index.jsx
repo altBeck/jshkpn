@@ -14,7 +14,7 @@ const Home = () => {
             <Link to="/liqwid">LIQWID</Link>
           </span>
           <span className="span">
-            <Link to="/abcd">ABCD</Link>
+            <Link to="/poa">POA</Link>
           </span>
           <span className="span">
             <Link to="/ifoncier">iFONCIER</Link>

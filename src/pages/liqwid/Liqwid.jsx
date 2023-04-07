@@ -13,6 +13,9 @@ const Liqwid = () => {
           Liqwid is a non-custodial money market protocol for lenders and borrowers. Think Aave liquidity markets plus Lido liquid staking (for the Cardano market). Users participate in the protocol as lenders or borrowers. Lenders supply liquidity to a market to earn interest on deposits, borrowers are able to open perpetual loans in an overcollateralized manner. Loans accrue a variable rate of interest based on a market's interest rate parameters and the current market utilization (ratio of borrow demand to supply for a given asset).
           </p>
 
+          <button className="jsh-button"><a href="https://liqwid.finance" target="_blank">GO TO <span className="liqwid--link">LIQWID FINANCE</span></a></button>
+
+
         </div>
       </div>
     </div>

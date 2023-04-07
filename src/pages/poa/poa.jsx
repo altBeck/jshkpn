@@ -1,10 +1,10 @@
 import React from 'react';
-import './abcd.css';
+import './poa.css';
 
-const ABCD = () => {
+const POA = () => {
   return (
     <div>ABCD</div>
   )
 }
 
-export default ABCD
+export default POA

@@ -13,6 +13,8 @@ const IFoncier = () => {
             We offer a reliable and country-wide electronic land register based on Blockchain. To make the process of land management as inclusive as possible, we involved the different key actors of the land management value chain and started partnerships with local authorities (mayors, etc.), landlords and notaries. Our offer includes registration services to individuals, communities, and companies.
           </p>
 
+          <button className="jsh-button"><a href="https://ifoncier.com" target="_blank">GO TO <span className="jsh-link">IFCONCIER</span></a></button>
+
         </div>
       </div>
     </div>
