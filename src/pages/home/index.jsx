@@ -11,13 +11,13 @@ const Home = () => {
         <div className="switch-list">
           <span className="span">...</span>
           <span className="span">
-            <Link to="/Liqwid">LIQWID</Link>
+            <Link to="/liqwid">LIQWID</Link>
           </span>
           <span className="span">
-            <Link to="/ABCD">ABCD</Link>
+            <Link to="/abcd">ABCD</Link>
           </span>
           <span className="span">
-            <Link to="/IFoncier">iFONCIER</Link>
+            <Link to="/ifoncier">iFONCIER</Link>
           </span>
         </div>
       </div>

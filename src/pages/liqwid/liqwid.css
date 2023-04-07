@@ -1,0 +1,44 @@
+.liqwid--container {
+  font-family: var(--font-family);
+}
+
+.space--liqwid {
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 4em;
+  display: flex;
+}
+
+.space--liqwid a {
+  text-decoration: none;
+  color: #9A9B9D;
+}
+
+.space--liqwid-content {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 640px) {
+  .space--liqwid {
+    max-width: 100%;
+    display: block;
+    padding-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .space--liqwid-content {
+    max-width: 100%;
+    overflow-y: auto;
+    height: 800px;
+    margin-top: 2.25rem;
+  }
+
+  .space--liqwid-content p {
+    font-size: 20px;
+  }
+
+}
