@@ -6,13 +6,14 @@ const Nav = () => {
   return (
     <div className="nav">
       <div className="nav--link">
-        <p><a>
-          <Link to="/About">ABOUT</Link>
-        </a></p>
-        <p><a>
-          <Link to="/Blog">BLOG</Link>
-        </a></p>
-        
+        <div>
+          <Link to="/about">ABOUT</Link>
+        </div>
+
+        <div>
+          <Link to="/blog">BLOG</Link>
+        </div>
+
         <div className="tooltip">
           <span className="tooltiptext"><a className="lnk0" href="#">GALLERY</a></span>
         </div>

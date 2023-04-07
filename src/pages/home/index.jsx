@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.css';
+import './index.css';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -10,15 +10,15 @@ const Home = () => {
 
         <div className="switch-list">
           <span className="span">...</span>
-          <span className="span"><a>
+          <span className="span">
             <Link to="/Liqwid">LIQWID</Link>
-          </a></span>
-          <span className="span"><a>
+          </span>
+          <span className="span">
             <Link to="/ABCD">ABCD</Link>
-          </a></span>
-          <span className="span"><a>
+          </span>
+          <span className="span">
             <Link to="/IFoncier">iFONCIER</Link>
-          </a></span>
+          </span>
         </div>
       </div>
     </div>

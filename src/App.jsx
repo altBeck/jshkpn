@@ -11,14 +11,15 @@ function App() {
       <Nav />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route path="About" component={About} />
-        <Route path="ABCD" component={ABCD} />
-        <Route path="Blog" component={Blog} />
-        <Route path="IFoncier" component={IFoncier} />
-        <Route path="Liqwid" component={Liqwid} />
+        <Route path="/about" element={<About />} />
+        <Route path="/abcd" element={<ABCD />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/ifoncier" element={<IFoncier />} />
+        <Route path="/liqwid" element={<Liqwid />} />
       </Routes>
     </Router>
   );
 }
 
-export default App;
+export default App
+
