@@ -3,7 +3,7 @@ import './about.css';
 
 import hero from '../../assets/jsh.png';
 
-const about = () => {
+const About = () => {
   return (
     <div className="about--container">
       <div className="space--about">
@@ -30,4 +30,4 @@ const about = () => {
   )
 }
 
-export default about
+export default About
