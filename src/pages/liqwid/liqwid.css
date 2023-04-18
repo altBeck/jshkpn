@@ -42,3 +42,13 @@
   }
 
 }
+
+@media screen and (max-width: 1080px) {
+  .space--liqwid {
+    max-width: 700px;
+  }
+
+  .space--liqwid-content {
+    max-width: 580px;
+  }
+}
