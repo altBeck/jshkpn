@@ -80,3 +80,10 @@
     margin: 0;
   }
 }
+
+
+@media screen and (max-width: 1080px) {
+  .home--link {
+    padding-left: 2rem;
+  }
+}
